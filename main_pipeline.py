@@ -291,6 +291,7 @@ if __name__ == "__main__":
             "sender_email": SENDER_EMAIL,
             "recipient_email": RECIPIENT_EMAIL,
             "email_password": EMAIL_PASSWORD
-        }
+        },
+        enable_caching=False
     ).submit()
     print("Pipeline submitted! Check the Vertex AI Pipelines console.")
